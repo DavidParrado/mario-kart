@@ -1,1 +1,7 @@
 pagina de ejemplo en texto plano
+
+***
+Notas
+***
+
+Agregar imagenes al archivo index.html
