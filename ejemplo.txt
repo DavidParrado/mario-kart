@@ -1,5 +1,18 @@
 pagina de ejemplo en texto plano
-asdf
-asdfasdf
-asdffasd
-fasdf
+
+
+***
+Notas
+***
+
+Agregar imagenes al archivo index.html
+
+
+
+
+Nuevas modificaciones para el 12/19/2024
+aaaaaaa
+
+
+Continuamos con las pruebas de Git en equipo
+Cambios corregidos
