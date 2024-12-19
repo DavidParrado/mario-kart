@@ -5,3 +5,8 @@ Notas
 ***
 
 Agregar imagenes al archivo index.html
+
+
+
+
+Nuevas modificaciones para el 12/19/2024
