@@ -1,16 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mario Kart</title>
-</head>
-<body>
-  <h1>Segunda version</h1>
-  <h2>Probando las ramas de cada usuario</h2>
-  <br>
-  <p>Primer cambio realizado por Esteban "p0tt1"</p>
-  <p>Primer cambio realizado por Larry</p>
-  <br>
-</body>
+        background-color: #0056b3;
+      }
+
+      #images-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 15px;
+        width: 100%;
+        max-width: 1000px;
+        margin-top: 20px;
+      }
+
+      .image-item {
+        overflow: hidden;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+      }
+
+      .image-item img {
+        width: 100%;
+        height: auto;
+        display: block;
+        transition: transform 0.3s ease;
+      }
+
+      .image-item:hover img {
+        transform: scale(1.05);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Buscador de Imágenes</h1>
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Busca imágenes..." />
+      <button onclick="searchImages()">Buscar</button>
+    </div>
+    <div id="images-container"></div>
+
+    <script src="app.js"></script>
+  </body>
 </html>
