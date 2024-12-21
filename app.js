@@ -1,6 +1,6 @@
 // Reemplaza 'YOUR_API_KEY' con tu clave de Pixabay
-const API_KEY = process.env.API_KEY;
-const API_URL = process.env.API_URL;
+const API_KEY = '46709131-2885d64196ea1f0ebfcbd7c03';
+const API_URL = 'https://pixabay.com/api/';
 
 async function searchImages() {
   const query = document.getElementById("search-input").value.trim();
